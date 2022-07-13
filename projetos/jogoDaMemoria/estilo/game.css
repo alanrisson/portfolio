@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    background: url(../imagens/bggame.jpeg) center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+header{
+    width: 90%;
+    max-width: 500px;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    max-width: 500px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 10px auto;
+    padding: 17px;
+}
+.card {
+    width: 100%;
+    aspect-ratio: 3/4;
+    border-radius: 5px;
+    position: relative;
+    transition: all 400ms ease;
+    transform-style: preserve-3d;
+}
+
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.5);   
+    transition: all 400ms ease;
+}
+
+.front { 
+    transform: rotateY(180deg);
+}
+
+.back {
+    background: #333;
+    background: url(../imagens/bgcard.png) center center;
+    backface-visibility: hidden;
+    background-size: cover;
+    outline: 2px solid black;
+}
+
+.card-revealed{
+    opacity: 1;
+    filter: saturate(0);
+}
+.reveal-card{
+    transform: rotateY(180deg);
+}
+

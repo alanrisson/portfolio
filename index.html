@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="estilos/index.css">
+    <link rel="stylesheet" href="estilos/navMain.css">
+    <link rel="stylesheet" href="estilos/responsive.css" media="screen and (max-width: 590px)">
+    <script defer src="script/index.js"></script>
+    <script defer src="script/navMain.js"></script>
+    <script defer src="script/navTop.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Alan Risson</h1>
+            <div class="menu-section">
+                <div class="menu-toggle">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <nav>
+                    <a href="https://alanrisson.github.io/portfolio/">Home</a>
+                    <a href="">Sobre Mim</a>
+                    <a href="#" onclick="clickMenu()">Contato</a>
+                </nav>
+            </div>
+        </div>
+        <section class="apresentacao">
+                <div class="txt">Estudante de Engenharia de Software e apaixonado por tecnologia.</div>
+        </section>
+    </header>
+    <nav class="about">
+        <a onclick="showSection('projetos')">Projetos</a>
+        <a onclick="showSection('skills')">Skills</a>
+        <a onclick="showSection('cursos')">Cursos</a>
+        <a onclick="showSection('conhecimentos')">Conhecimentos</a>
+        <a onclick="showSection('faculdade')">Faculdade</a>
+    </nav>
+        <section class="appear">
+            <div class="grid"></div>
+        </section>
+    <footer>
+        <section>
+            <h1>Alan Risson</h1>
+            <p>Estudante / Desenvolvedor</p>
+            <nav>
+                <a href="https://github.com/alanrisson" target="_blank" rel="next"><img src="imagens/footer/github.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/alan-risson-4b36a3235/" target="_blank" rel="next"><img src="imagens/footer/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/alan.risson/" target="_blank" rel="next"><img src="imagens/footer/instagram.png" alt="Instagram"></a>
+            </nav>
+        </section>
+    </footer>
+</body>
+</html>

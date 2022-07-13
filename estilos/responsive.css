@@ -1,0 +1,83 @@
+header nav{
+    display: none;
+}
+
+.menu-toggle{
+    width: 40px;
+    height: 30px;
+    margin-right: 35px;
+    user-select: none;
+    cursor: pointer;
+}
+.one,
+.two,
+.three{
+    background-color: white;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+}
+
+.menu-section.on{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    min-width: 300px;
+    min-height: 100vh;
+    background-color: var(--cor1);
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-section.on nav{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu-section.on .menu-toggle{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.menu-section.on .menu-toggle .one{
+    transform: rotate(45deg) translate(7px, 7px);
+    background: white;
+}
+
+.menu-section.on .menu-toggle .two{
+    opacity: 0;
+}
+
+.menu-section.on .menu-toggle .three{
+    transform: rotate(-45deg) translate(9px, -8px);
+    background: white;
+}
+
+.menu-section.on a{
+    display: block;
+    justify-items: center;
+    text-align: center;
+    color: white;
+    margin: 45px 0;
+    transition-duration: 0.2s;
+    line-height: 2em;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.menu-section.on a:hover{
+    color: var(--cor1);
+    background-color: azure;
+}
+
+main nav {
+    font-size: 1.5rem;
+}
