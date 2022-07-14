@@ -83,7 +83,7 @@ const showSection = (link) => {
             const cardTop = createGridElement('div', 'cardTop')
             const cardBottom = createGridElement('div', 'cardBottom')             
 
-            cardTop.style.backgroundImage = `url('../imagens/conhecimentos/${knowns}.png')`
+            cardTop.style.backgroundImage = `url('imagens/conhecimentos/${knowns}.png')`
             cardTop.style.backgroundSize = '100% 100%'
             cardBottom.style.color = "white"
             cardBottom.innerHTML = knowns
