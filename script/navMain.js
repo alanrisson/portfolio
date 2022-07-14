@@ -13,6 +13,9 @@ const showSection = (link) => {
 
         case 'projetos':
             
+            grid.style.display = 'grid'
+            grid.style.background = 'transparent'
+
             const projects = [
                 "jogoDaMemoria",
                 "jogoMario",
@@ -56,14 +59,68 @@ const showSection = (link) => {
         break;
         case 'skills':
             
+            grid.style.display = 'inline-block'
 
+           grid.innerHTML = `
+
+                <h2>Proatividade</h2>
+
+                <h2>Raciocínio lógico</h2>
+
+                <h2>Adaptabilidade</h2>
+
+                <h2>Liderança</h2>
+
+                <h2>Organização</h2>
+
+                <h2>Facilidade em aprender</h2>
+
+                <h2>Trabalho em equipe</h2>
+
+                <h2>Honestidade</h2>
+                
+           `
 
         break;
         case 'cursos':
             
+           grid.style.display = 'inline-block'
+           
+           grid.innerHTML = `
+            
+                <h2>Excel Avançado (32h)</h2>
+            
+                <h2>Inglês (800h)</h2>
+            
+                <h2>Lógica de Programação (40h)</h2>
+            
+                <h2>Javascript (40h)</h2>
+            
+                <h2>HTML5 / CSS3 (120h)</h2>
+            
+                <h2>Matemática comercial e financeira (36h)</h2>
+            
+                <h2>Mont. e Manut. de computadores (32h)</h2>
+            
+                <h2>Linguagem e comunicação (36h)</h2>
+            
+                <h2>Empreendedorismo (20h)</h2>
+            
+                <h2>Informática (40h)</h2>
+            
+                <h2>Formação Humana e Científica (48h)</h2>
+            
+                <h2>Cidadania e trabalho (32h)</h2>
+            
+                <h2>Cooperativismo (40h)</h2>
+            `
+
         break;
         case 'conhecimentos':
             
+            grid.style.display = 'grid'
+            grid.style.background = 'transparent'
+
            const knowledge = [
                 "HTML5",
                 "CSS3",

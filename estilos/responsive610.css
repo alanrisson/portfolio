@@ -78,6 +78,10 @@ header nav{
     background-color: azure;
 }
 
+section .grid h2 {
+    font-size: 1.2rem;
+}
+
 main nav {
     font-size: 1.5rem;
 }

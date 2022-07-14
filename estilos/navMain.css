@@ -27,9 +27,9 @@ nav.about a.clicked{
 }
 .card {
     position: relative;
-    width: 200px;
+    width: 100%;
     height: 250px;
-    background: rgb(51, 51, 51);
+    background: rgba(206, 203, 203, 0.765);
     border-radius: 10px;
     box-shadow: 1px 1px 10px black;
     transition: all ease 200ms;

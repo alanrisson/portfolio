@@ -1,3 +1,21 @@
+
 nav.about a{
     font-size: 0.8rem;
+}
+.txt{
+    font-size: 1.2rem;
+}
+section .grid h2{
+    font-size: 0.9rem;
+}
+footer{
+    height: 30vh;
+    font-size: 0.8rem;
+}
+
+footer p{
+    padding-bottom: 2px;
+}
+footer img{
+    width: 30px;
 }
