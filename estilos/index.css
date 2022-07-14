@@ -32,7 +32,7 @@ header{
     min-width: 278px;
     user-select: none;
     flex-direction: column;
-    background: url(../imagens/background.jpg) fixed center;
+    background: url(../imagens/bgtop.jpg) fixed center;
     background-size: cover;
     
 }
@@ -91,6 +91,8 @@ section.apresentacao{
     align-items: center;
     justify-content: center;
     background-color: rgba(68, 68, 68, 0.833);
+    background: url(../imagens/bgmain.jpg) fixed center;
+    background-size: cover;
 }
 .grid{
     display: grid;
@@ -107,7 +109,12 @@ footer{
     align-items: center;
     justify-content: center;
     background-color: #333;
+    background: url(../imagens/bgfooter.jpg) fixed center;
+    background-size: cover;
+    border-top: 3px solid black;
     text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px black;
 }
 
 footer p{

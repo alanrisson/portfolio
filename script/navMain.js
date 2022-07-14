@@ -29,7 +29,8 @@ const showSection = (link) => {
                 const cardBottom = createGridElement('div', 'cardBottom')             
 
                 cardTop.style.backgroundImage = `url('imagens/projetos/${project}.jpeg')`
-                cardTop.style.backgroundSize = 'cover'
+                cardTop.style.backgroundSize = 'contain'
+                cardTop.style.backgroundRepeat = "no-repeat"
                 cardTop.style.backgroundPosition = 'center'
                 cardBottom.innerHTML = `<a href="https://alanrisson.github.io/${project}/" target="_blank" rel="next">${project}</a>`
                 cardBottom.style.cursor = 'pointer'
@@ -84,7 +85,8 @@ const showSection = (link) => {
             const cardBottom = createGridElement('div', 'cardBottom')             
 
             cardTop.style.backgroundImage = `url('imagens/conhecimentos/${knowns}.png')`
-            cardTop.style.backgroundSize = '100% 100%'
+            cardTop.style.backgroundSize = 'contain'
+            cardTop.style.backgroundRepeat = 'no-repeat'
             cardBottom.style.color = "white"
             cardBottom.innerHTML = knowns
 
