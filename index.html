@@ -7,6 +7,7 @@
     <title>Portfólio</title>
     <link rel="stylesheet" href="estilos/index.css">
     <link rel="stylesheet" href="estilos/navMain.css">
+    <link rel="stylesheet" href="estilos/navTop.css">
     <link rel="stylesheet" href="estilos/responsive610.css" media="screen and (max-width: 610px)">
     <link rel="stylesheet" href="estilos/responsive515.css" media="screen and (max-width: 515px)">
     <link rel="stylesheet" href="estilos/responsive350.css" media="screen and (max-width: 350px)">
@@ -27,13 +28,27 @@
                 <nav>
                     <a href="https://alanrisson.github.io/portfolio/">Home</a>
                     <a href="">Sobre Mim</a>
-                    <a href="#" onclick="clickMenu()">Contato</a>
+                    <a onclick="clickMenu('contact')">Contato</a>
                 </nav>
             </div>
         </div>
         <section class="apresentacao">
                 <div class="txt">Estudante de Engenharia de Software e apaixonado por tecnologia.</div>
         </section>
+        <div class="contact">
+            <div class="exit-contact" onclick="clickMenu('contact')">
+                <div class="x1"></div>
+                <div class="x2"></div>
+            </div>
+            <ul>
+               <li><strong>Telefone:</strong><abbr title="Whatsapp">(54) 99239-7486</abbr>
+                <li><strong>Email:</strong> alandasilvarisson@gmail.com
+                <li><strong>Instagram:</strong><a href="https://www.instagram.com/alan.risson/" target="_blank">@alan.risson</a>
+                <li><strong>LinkedIn:</strong><a href="https://www.linkedin.com/in/alan-risson-4b36a3235/" target="_blank">Alan Risson</a>
+                <li><strong>Github:</strong><a href="https://github.com/alanrisson" target="_blank">Alan Risson</a>
+                <li><strong>Telefone para recados:</strong><abbr title="Maria">(54) 98153-0520</abbr>
+            </ul>
+        </div>
     </header>
     <nav class="about">
         <a onclick="showSection('projetos')">Projetos</a>
