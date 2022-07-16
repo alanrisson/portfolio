@@ -29,7 +29,8 @@ header nav{
     width: 100%;
     min-width: 300px;
     min-height: 100vh;
-    background-color: var(--cor1);
+    background: url(../imagens/bgtop.jpg) center;
+    background-size: cover;
     z-index: 10;
     justify-content: center;
     align-items: center;
@@ -74,7 +75,7 @@ header nav{
 }
 
 .menu-section.on a:hover{
-    color: var(--cor1);
+    color: black;
     background-color: azure;
 }
 

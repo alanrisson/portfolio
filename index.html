@@ -26,8 +26,8 @@
                     <div class="three"></div>
                 </div>
                 <nav>
-                    <a href="https://alanrisson.github.io/portfolio/">Home</a>
-                    <a href="">Sobre Mim</a>
+                    <a onclick="clickMenu('home')">Home</a>
+                    <a onclick="clickMenu('about')">Sobre Mim</a>
                     <a onclick="clickMenu('contact')">Contato</a>
                 </nav>
             </div>
@@ -36,7 +36,7 @@
                 <div class="txt">Estudante de Engenharia de Software e apaixonado por tecnologia.</div>
         </section>
         <div class="contact">
-            <div class="exit-contact" onclick="clickMenu('contact')">
+            <div class="exitButton" onclick="clickMenu('contact')">
                 <div class="x1"></div>
                 <div class="x2"></div>
             </div>
@@ -49,6 +49,29 @@
                 <li><strong>Telefone para recados:</strong><abbr title="Maria">(54) 98153-0520</abbr>
             </ul>
         </div>
+        <div class="aboutMe">
+            <section class="txtAbout">
+                    <div class="exitButton" onclick="clickMenu('about')">
+                        <div class="x1"></div>
+                        <div class="x2"></div>
+                    </div>
+                    <h1>Sobre Mim</h1>
+                        <div class="topAbout">
+                            <div class="div1">
+                                <h2>Informações pessoais</h2>
+                                    <p><strong>Nome:</strong> Alan Risson da Silva</p>
+                                    <p><strong>Data de Nascimento:</strong> 30/07/2001</p>
+                                    <p><strong>UF:</strong> RS</p>
+                                    <p><strong>Cidade:</strong> Farroupilha</p>
+                            </div>
+                            <div class="div2"></div>
+                        </div>
+                        <div class="bottomAbout">
+                            <h2>Quem eu sou?</h2>
+                                <p>Meu nome é Alan Risson, sou estudante do segundo semestre da faculdade de engenharia de software na Uniasselvi. Sempre foi meu sonho ser programador, mas achava que essa seria uma tarefa muito difícil. Em 2021 comecei a estudar programação e neste ano percebi que poderia sim realizar o meu sonho. Quero ser um grande programador e engenheiro de software, sei que o caminho não é fácil, mas esse é só o começo.</p>
+                        </div>
+                </section>
+        </div>
     </header>
     <nav class="about">
         <a onclick="showSection('projetos')">Projetos</a>
@@ -58,9 +81,7 @@
         <a onclick="showSection('faculdade')">Faculdade</a>
     </nav>
     <section class="appear">
-        <div class="grid">
-            
-        </div>
+        <div class="grid"></div>
     </section>
     <footer>
         <section>

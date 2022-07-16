@@ -49,13 +49,13 @@ header .container {
     background: #333;
 }
 
-header h1,
+.container h1,
 header.menu-section{
     display: inline-flex;
     padding: 0 33px;
 }
 
-header h1{
+.container h1{
     font-size: 1.5rem;
     color: #fff;
 }
@@ -71,54 +71,6 @@ header h1{
 .menu-section a:hover{
     background-color: #fff;
     color: black;
-}
-
-header .contact {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto;
-    background: rgb(255, 255, 255);
-    height: 45vh;
-    max-width: 350px;
-    line-height: 2rem;
-    width: 100%;
-    top: 25%;
-    position: fixed;
-    z-index: 40;
-    list-style: inside;
-    border-radius: 10px;
-    user-select: auto;
-}
-
-header .contact a{
-    color: black;
-}
-
-.contact .exit-contact{
-    display: flex;
-    position: absolute;
-    top: 7px;
-    right: 7px;
-    height: 35px;
-    width: 35px;
-    cursor: pointer;
-}
-
-.exit-contact .x1,
-.exit-contact .x2{
-    position: absolute;
-    height: 4px;
-    background: black;
-    width: 100%;
-}
-
-.exit-contact .x1{
-    transform: rotate(45deg) translate(13px, 13px);
-}
-.exit-contact .x2{
-    transform: rotate(-45deg) translate(-13px, 13px);
 }
 
 section.apresentacao{
