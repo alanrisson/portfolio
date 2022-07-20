@@ -5,6 +5,30 @@ nav.about a{
 .txt{
     font-size: 1.2rem;
 }
+
+
+.aboutMe .exitButton {
+    width: 20px;
+}
+
+.txtAbout p{
+    font-size: 0.8rem;
+}
+
+.txtAbout h1 {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+.txtAbout h2{
+    font-size: 1rem;
+}
+
+.topAbout .div2{
+    max-width: 80px;
+    max-height: 150px;
+}
+
 section .grid h2{
     font-size: 0.9rem;
 }

@@ -1,5 +1,7 @@
 const contact = document.querySelector('.contact')
 const about = document.querySelector('.aboutMe')
+const footer = document.querySelector('.footer')
+
 let showContact = true
 let showAbout = true
 
@@ -15,17 +17,13 @@ const clickMenu = (link) => {
 
         case 'about':
 
-            contact.style.display = 'none'
             showContact = true
-            
+            contact.style.display = 'none'
+            footer.style.display = showAbout? 'none' : 'flex'
+            container.style.display = showAbout? 'none' : 'flex'
             document.body.style.overflow = showAbout? 'hidden' : 'initial'
             about.style.display = showAbout? 'flex' : 'none'
             showAbout = !showAbout
-            if(showAbout) {
-                container.classList.remove('roll')
-            } else {
-                container.classList.add('roll')
-            }
 
         break;
 
@@ -33,11 +31,6 @@ const clickMenu = (link) => {
 
             contact.style.display = 'none'
             showContact = true
-            about.style.display = 'none'
-            showAbout = true
-            if (window.scrollY < 10) {
-                container.classList.remove('roll')
-            }
             document.body.style.overflow = 'initial'
 
         break;

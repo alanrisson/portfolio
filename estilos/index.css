@@ -10,14 +10,6 @@
     user-select: none;
 }
 
-:root{
-    --cor1:#945EE6;
-    --cor2:#6614E0;
-    --cor3:#4C0FA8;
-    --cor4:#341661;
-    --cor5:#2C0961;
-}
-
 body, html{
     font-size: 100%;
 }
@@ -26,7 +18,7 @@ header{
     left: 0;
     right: 0;
     top: 0;
-    height: 100vh;
+    height: 97vh;
     justify-content: space-between;
     align-items: center;
     min-width: 278px;

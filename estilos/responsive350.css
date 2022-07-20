@@ -21,6 +21,34 @@ nav.about a{
     font-size: 0.6rem;
 }
 
+.txtAbout {
+    top: 20%;
+}
+
+.txtAbout p{
+    font-size: 0.7rem;
+}
+
+.txtAbout h2{
+    font-size: 1rem;
+}
+
+.topAbout {
+    margin-top: 20px;
+    flex-direction: column-reverse;
+}
+
+.topAbout .div2{
+    max-width: 80px;
+    max-height: 150px;
+    padding: 70px;
+    margin: auto;
+}
+
+.topAbout .div1 {
+    margin-top: 10px;
+}
+
 section .grid h2{
     font-size: 0.6rem;
     padding: 5px;

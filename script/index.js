@@ -13,11 +13,13 @@ menuToggle.addEventListener("click", () => {
 })
 
 const scrollListener = () => {
+
     if(window.scrollY > 10){
         container.classList.add('roll')
     } else{
         container.classList.remove('roll')
     }
+    
 }
 
 window.addEventListener('scroll', scrollListener)
