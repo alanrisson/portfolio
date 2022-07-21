@@ -32,6 +32,7 @@ const clickMenu = (link) => {
             contact.style.display = 'none'
             showContact = true
             document.body.style.overflow = 'initial'
+            appear.innerHTML = `<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, ratione veritatis! Rem autem minus tenetur a accusamus dolores, non, facere reprehenderit vel vero porro illum placeat animi libero voluptas veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, qui! Officiis, odio quaerat cum, pariatur facere est repudiandae exercitationem, laudantium porro nihil laboriosam! Quisquam fuga enim, eius earum qui laudantium?</p>`
 
         break;
 

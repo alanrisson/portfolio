@@ -1,4 +1,4 @@
-const grid = document.querySelector('.grid')
+const appear = document.querySelector('.appear')
 
 const createGridElement = (tag, className) => {
     const element = document.createElement(tag)
@@ -7,8 +7,9 @@ const createGridElement = (tag, className) => {
 }
 
 const showSection = (link) => {
-    grid.innerHTML = ''
-
+    appear.innerHTML = `<div class="grid"></div>`
+    const grid = document.querySelector('.grid')
+    
     switch (link) {
 
         case 'projetos':

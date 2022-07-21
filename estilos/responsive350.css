@@ -22,7 +22,8 @@ nav.about a{
 }
 
 .txtAbout {
-    top: 20%;
+    height: auto;
+    padding: 5px;
 }
 
 .txtAbout p{
