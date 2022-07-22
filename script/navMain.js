@@ -10,6 +10,20 @@ const showSection = (link) => {
     appear.innerHTML = `<div class="grid"></div>`
     const grid = document.querySelector('.grid')
     
+    const clicked = () => {
+        const target = document.querySelector(`.${link}`)
+        document.querySelector('.projetos').classList.remove('clicked')
+        document.querySelector('.skills').classList.remove('clicked')
+        document.querySelector('.cursos').classList.remove('clicked')
+        document.querySelector('.conhecimentos').classList.remove('clicked')
+        document.querySelector('.faculdade').classList.remove('clicked')
+
+        target.classList.add('clicked')
+
+    }
+
+    clicked()
+    
     switch (link) {
 
         case 'projetos':

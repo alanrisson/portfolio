@@ -8,6 +8,7 @@ nav.about{
     font-size: 1.3rem;
     margin-top: -50px;
 }
+
 nav.about a{
     display: flex;
     color:white;
@@ -15,16 +16,20 @@ nav.about a{
     padding: 12px 7px;
     border-radius: 5px;
 }
-nav.about a:hover{
-    color: black;
-    background: white;
-}
-nav.about a.clicked{
+
+.about .clicked {
     background: white;
     color: black;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
+
+nav.about a:hover{
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+
 .card {
     position: relative;
     width: 100%;
